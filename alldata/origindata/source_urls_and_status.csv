@@ -1,0 +1,7 @@
+source,cell_line,url,status,note
+ChEMBL Activity API,HepG2,https://www.ebi.ac.uk/chembl/api/data/activity.json?target_pref_name__iexact=HepG2&limit=10000&offset=0,downloaded,分页全量下载到chembl_hepg2_pages_10k
+ChEMBL Activity API,HCT-116,https://www.ebi.ac.uk/chembl/api/data/activity.json?target_pref_name__iexact=HCT-116&limit=10000&offset=0,downloaded,分页全量下载到chembl_hct116_pages_10k
+ChEMBL Assay API,HepG2,https://www.ebi.ac.uk/chembl/api/data/assay.json?cell_chembl_id=CHEMBL3307718&limit=10000,downloaded,用于补充实验描述与关联
+ChEMBL Assay API,HCT-116,https://www.ebi.ac.uk/chembl/api/data/assay.json?cell_chembl_id=CHEMBL3308372&limit=10000,downloaded,用于补充实验描述与关联
+PubChem E-utilities,HepG2,https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pcassay&term=HepG2&retmax=5000&retmode=json,downloaded,已下载assay检索ID结果
+PubChem E-utilities,HCT-116,https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pcassay&term=HCT-116%20OR%20HCT116&retmax=5000&retmode=json,downloaded,已下载assay检索ID结果

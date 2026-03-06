@@ -1,0 +1,3 @@
+﻿cell,total_raw,drop_no_smiles,drop_cell_mismatch,drop_assay_type,drop_relation,drop_validity_comment,drop_no_label,kept,kept_pchembl_direct,kept_pchembl_fallback
+HepG2,21000,17,0,8991,5726,181,2757,3328,2445,883
+HCT116,10000,133,4981,53,572,39,1424,2798,1926,872

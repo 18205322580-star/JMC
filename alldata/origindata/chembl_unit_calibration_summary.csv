@@ -1,0 +1,4 @@
+﻿cell,rows,rows_with_standard_nM,rows_with_backcalc_nM,rows_ic50_eq_with_nM
+HepG2,3328,3328,3328,2314
+HCT116,2798,2798,2798,1857
+Combined,6126,6126,6126,4171
