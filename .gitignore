@@ -9,9 +9,7 @@ logs/
 _tmp_*.json
 *.log
 
-# Large model artifacts (keep locally, do not commit)
-cpt_unimol_project/phase2_unimol/artifacts_*/
-cpt_unimol_project/phase2_unimol/smoke_check/
+# Large dependency artifacts (keep locally, do not commit)
 campt_activity_models/**/artifacts/
 
 # Notebook and editor noise
