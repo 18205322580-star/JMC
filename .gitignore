@@ -1,0 +1,23 @@
+# Python env and caches
+.venv/
+**/__pycache__/
+*.pyc
+
+# Runtime logs and temp files
+logs/
+*_tmp*.json
+_tmp_*.json
+*.log
+
+# Large model artifacts (keep locally, do not commit)
+cpt_unimol_project/phase2_unimol/artifacts_*/
+cpt_unimol_project/phase2_unimol/smoke_check/
+campt_activity_models/**/artifacts/
+
+# Notebook and editor noise
+.ipynb_checkpoints/
+.vscode/*.code-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
